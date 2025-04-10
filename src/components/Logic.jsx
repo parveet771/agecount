@@ -9,7 +9,7 @@ const Logic = () => {
     const [month, setMonth] = useState("");
     const [day, setDay] = useState("");
     let date = new DateObject();
-   
+   debugger;
     const info = (info) => {
         if (date.day - info.day < 0) {
             let day = 30 - (info.day - date.day);

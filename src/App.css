@@ -3,17 +3,17 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif ;
-    background-color: hsl(0, 0%, 94%) !important;
+    background-color: hsl(0, 0%, 94%) ;
 }
 
 .fonts-normal {
-    font-family: "Poppins" !important;
-    font-weight: 600 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 2px !important;
-    color: hsl(0, 1%, 44%);
-    font-size: 14px !important;
-    margin-block: 5px !important;
+    font-family: "Poppins" ;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+    letter-spacing: 2px ;
+    color: hsl(0, 1%, 21%);
+    font-size: 14px ;
+    margin-block: 5px ;
 }
 
 .fonts-normal-error {
@@ -21,42 +21,41 @@ body {
 }
 
 .css-it8l2tu-MuInputBase-input-MuIOutilnedInput-input {
-    font-weight: 000 !important;
-    font-family: "Poppins" !important;
-    color: hsl(0, 0%, 8%) !important;
+    font-weight: 000;
+    font-family: "Poppins";
+    color: hsl(0, 0%, 8%);
 }
 
 .sumbit-btn {
-    background-color: hsl(228, 45%, 44%) !important;
-    box-shadow: none !important;
-    padding: 34px !important;
+    background-color: hsl(259, 100%, 65%) !important;
+    box-shadow: none ;
+    padding: 34px;
     position: "absolute";
     left: "50%";
     transform: "translateX(-50%)";
 }
 
 .sumbit-btn:hover {
-    background-color: hsl(0, 0%, 8%) !important;
+    background-color: hsl(0, 0%, 8%)!important;
 }
 
 .result-text {
     font-size: 5rem !important;
     font-weight: 800 !important;
     font-style: italic !important;
-    font-family: "Poppins" !important;
-    /* color: hsl(0, 0%, 8%) !important; */
+    font-family: "Poppins" !important;    
     line-height: 80px !important;
-    color: hsl(228, 45%, 44%);
+    color: hsl(259, 100%, 65%);
 }
 
 @media screen and (max-width: 375px) {
     .result-text {
-        font-size: 3.4rem !important;
+        font-size: 3.4rem;
     }
 }
 
 @media screen and (max-width: 280px) {
     .result-text {
-        font-size: 3rem !important;
+        font-size: 3rem;
     }
 }
